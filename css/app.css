@@ -117,6 +117,7 @@ nav .active a {
     color: #efefef;
 }
 
+.panel,
 .alert,
 .alert-success,
 .alert-error,
@@ -180,4 +181,9 @@ textarea:focus {
 
 .loading-icon:before {
     color: #fff;
+}
+
+.bookmarklet {
+    background: transparent;
+    color: #aaa;
 }

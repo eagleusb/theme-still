@@ -1,8 +1,8 @@
 Theme Still
 ===========
 
-- Author: [Franklin Delehelle](https://github.com/delehef)
-- Compatibility: Miniflux 1.1.6
+- Original author: [Franklin Delehelle](https://github.com/delehef)
+- Compatibility: Miniflux 1.1.7
 
 Screenshot
 ----------
