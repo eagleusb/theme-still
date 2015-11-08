@@ -41,9 +41,10 @@ pre, code {
     font-size: 100%;
     color: #5c9b6c;
 }
+/* Listing items */
 
 .items article {
-    border: 1px dotted #333;
+    border: 1px dotted #306648;
     background-color: #222;
     margin-top: 20px
 }
@@ -52,20 +53,21 @@ pre, code {
     font-weight : normal;
 }
 
+.items a {
+	color: #dadada;
+	font-size: 85%;
+}
+
 .items article:hover .preview,
 .items #current-item .preview {
     color: #666;
 }
 
-#item-content {
-    text-align: justify;
-    font-family: roboto;
-}
-
 .items .preview {
-    font-family: roboto;
-    text-align: justify;
-    color: #aaa;
+	font-family: Roboto,sans-serif;
+	text-align: justify;
+	color: #aaa;
+	font-size: 70%;
 }
 
 .items a:hover {
