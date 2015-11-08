@@ -74,6 +74,12 @@ pre, code {
     text-decoration: none;
 }
 
+/* Listing item */
+
+.item-menu {
+  margin: 2px 0;
+}
+
 .item h1 a {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #eee;
