@@ -82,8 +82,18 @@ ul.item-menu {
 
 /* Item (article) content*/
 
+.item {
+    color: #666;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+.item p {
+	font-family: Roboto;
+}
+
 .item h1 a {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: inherit;
     color: #eee;
     font-size: 1.2em;
 }
@@ -97,10 +107,6 @@ ul.item-menu {
 }
 
 .item .infos a {
-    color: #666;
-}
-
-.item {
     color: #666;
 }
 
