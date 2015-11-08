@@ -1,12 +1,9 @@
 @import url("../../../assets/css/app.css");
 
-@font-face {
-    font-family: roboto;
-    src: url("../fonts/Roboto-Light.ttf");
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto|Open+Sans);
 
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     background: #222;
     color: #efefef;
 }
