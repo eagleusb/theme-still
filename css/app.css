@@ -116,6 +116,10 @@ ul.item-menu {
     color: #bbb;
 }
 
+.item nav.bottom {
+	border-top: 1px dotted #5c9b6c;
+}
+
 blockquote {
     color: #999;
     font-family: roboto;
