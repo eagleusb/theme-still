@@ -36,7 +36,10 @@ pre, code {
 }
 
 .page-header h2 {
-    border-bottom: 1px dotted #555;
+    border-bottom: 1px dotted #2da465;
+    text-transform: uppercase;
+    font-size: 100%;
+    color: #5c9b6c;
 }
 
 .items article {
