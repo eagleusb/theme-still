@@ -5,6 +5,7 @@ body {
     font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     background: #222;
     color: #efefef;
+    max-width: 1280px;
 }
 
 h1, h2, h3 {
@@ -25,10 +26,6 @@ a:hover {
     text-decoration: none;
 }
 
-.items #current-item {
-    border: 1px solid #be0000;
-}
-
 pre, code {
     color: #fff;
     background: #555;
@@ -43,6 +40,10 @@ pre, code {
 }
 /* Listing items */
 
+.items #current-item {
+    border: 1px solid #be0000;
+}
+
 .items article {
     border: 1px dotted #306648;
     background-color: #222;
@@ -50,24 +51,24 @@ pre, code {
 }
 
 .items h2 {
-    font-weight : normal;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .items a {
 	color: #dadada;
-	font-size: 85%;
 }
 
 .items article:hover .preview,
 .items #current-item .preview {
-    color: #666;
+    color: #FFF;
 }
 
 .items .preview {
-	font-family: Roboto,sans-serif;
+	font-family: 'Open Sans',sans-serif;
 	text-align: justify;
-	color: #aaa;
-	font-size: 80%;
+	color: #5c9b6c;
+	font-size: 1rem;
 }
 
 .items a:hover {
@@ -88,10 +89,6 @@ ul.item-menu {
     font-size: 1em;
 }
 
-.item p {
-	font-family: Roboto;
-}
-
 .item h1 a {
     font-family: inherit;
     color: #eee;
@@ -100,6 +97,10 @@ ul.item-menu {
 
 .item h1 a:visited {
     color: #888;
+}
+
+.item-menu {
+	font-size: 0.8em;
 }
 
 .infos {
